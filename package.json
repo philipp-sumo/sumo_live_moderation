@@ -3,7 +3,9 @@
     "license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
     "author": "philipp", 
     "version": "0.3", 
-    "fullName": "SUMO Live Moderation", 
+    "fullName": "SUMO Live Moderation",
+	"icon": "./data/icon-32.png",
+	"icon64": "./data/icon-64.png",
     "id": "sumolivemod@sumo", 
    	"permissions": {"private-browsing": true},
 	"preferences": [
