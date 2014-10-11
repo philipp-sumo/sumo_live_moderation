@@ -7,7 +7,6 @@
 	"icon": "./data/icon-32.png",
 	"icon64": "./data/icon-64.png",
     "id": "sumolivemod@sumo", 
-   	"permissions": {"private-browsing": true},
 	"preferences": [
 		{
 			"description": "A tab with the question will be opened for manual moderation in case the specified keywords are detected",
@@ -50,6 +49,13 @@
 			"name": "alertinbackground",
 			"value": false,
 			"title": "Open alerts in background"
+		},
+		{
+			"description": "Check incoming replies with filters for keywords, phone numbers, links & unusual content as well",
+			"type": "bool",
+			"name": "checkreplies",
+			"value": false,
+			"title": "Check replies"
 		},
 		{
 			"description": "A brief notification will be displayed for all incoming questions, regardless if they are due for moderation or not.",
