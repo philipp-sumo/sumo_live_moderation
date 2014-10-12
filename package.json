@@ -51,21 +51,21 @@
 			"title": "Open alerts in background"
 		},
 		{
-			"description": "Check incoming replies with filters for keywords, phone numbers, links & unusual content as well",
+			"description": "Check incoming replies with filters for keywords, phone numbers, links & unusual content as well (some whitelisting is applied for known contributors)",
 			"type": "bool",
 			"name": "checkreplies",
 			"value": false,
 			"title": "Check replies"
 		},
 		{
-			"description": "A brief notification will be displayed for all incoming questions, regardless if they are due for moderation or not.",
+			"description": "A brief notification will be displayed for all incoming questions, regardless if they are due for moderation or not",
 			"type": "bool",
 			"name": "verbose",
 			"value": false,
 			"title": "Notification for all incoming questions"
 		},
 		{
-			"description": "Determines how often the SUMO API will be queried to receive updates about new questions. Too low values won't work well, because of the server-side caching involved.",
+			"description": "Determines how often the SUMO API will be queried to receive updates about new questions. Too low values won't work well, because of the server-side caching involved",
 			"type": "integer",
 			"name": "polling",
 			"value": 150,
