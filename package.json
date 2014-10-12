@@ -68,7 +68,7 @@
 			"description": "Determines how often the SUMO API will be queried to receive updates about new questions. Too low values won't work well, because of the server-side caching involved.",
 			"type": "integer",
 			"name": "polling",
-			"value": 90,
+			"value": 150,
 			"title": "Polling interval (in seconds)"
 		}
     ]
