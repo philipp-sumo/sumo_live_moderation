@@ -1,12 +1,12 @@
 {
-    "name": "sumo_live_moderation", 
-    "license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
-    "author": "philipp", 
-    "version": "0.3", 
-    "fullName": "SUMO Live Moderation",
+	"name": "sumo_live_moderation", 
+	"license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
+	"author": "philipp", 
+	"version": "0.3", 
+	"fullName": "SUMO Live Moderation",
 	"icon": "./data/icon-32.png",
 	"icon64": "./data/icon-64.png",
-    "id": "sumolivemod@sumo", 
+	"id": "sumolivemod@sumo", 
 	"preferences": [
 		{
 			"description": "A tab with the question will be opened for manual moderation in case the specified keywords are detected",
@@ -71,5 +71,5 @@
 			"value": 150,
 			"title": "Polling interval (in seconds)"
 		}
-    ]
+	]
 }
