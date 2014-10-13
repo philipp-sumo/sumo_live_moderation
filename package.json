@@ -1,75 +1,75 @@
 {
-	"name": "sumo_live_moderation", 
-	"license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
-	"author": "philipp", 
-	"version": "0.3", 
-	"fullName": "SUMO Live Moderation",
-	"icon": "./data/icon-32.png",
-	"icon64": "./data/icon-64.png",
-	"id": "sumolivemod@sumo", 
-	"preferences": [
-		{
-			"description": "A tab with the question will be opened for manual moderation in case the specified keywords are detected",
-			"type": "bool",
-			"name": "alertkeyword",
-			"value": true,
-			"title": "Show alert for keywords"
-		},
-		{
-			"description": "Case insensitive, separate with '|'",
-			"type": "string",
-			"name": "keywords",
-			"value": "vashikaran|gold medal|astrolog|black magic|husband wife",
-			"title": "Keywords to look for:"
-		},
-		{
-			"description": "A tab with the question will be opened for manual moderation in case a phone number or a link is detected",
-			"type": "bool",
-			"name": "alertphonenumberlink",
-			"value": true,
-			"title": "Show alert for phone numbers & links"
-		},
-		{
-			"description": "A tab with the question will be opened for manual moderation in case a particularily short or garbled text is detected",
-			"type": "bool",
-			"name": "alertgarbled",
-			"value": true,
-			"title": "Show alert for unusual content"
-		},
-		{
-			"description": "A tab with the question will be opened for manual moderation in case a duplicate post is supsected",
-			"type": "bool",
-			"name": "alertduplicate",
-			"value": true,
-			"title": "Show alert for duplicates"
-		},
-		{
-			"description": "Alerts will open in the background and not take focus away from the current tab",
-			"type": "bool",
-			"name": "alertinbackground",
-			"value": false,
-			"title": "Open alerts in background"
-		},
-		{
-			"description": "Check incoming replies with filters for keywords, phone numbers, links & unusual content as well (some whitelisting is applied for known contributors)",
-			"type": "bool",
-			"name": "checkreplies",
-			"value": false,
-			"title": "Check replies"
-		},
-		{
-			"description": "A brief notification will be displayed for all incoming questions, regardless if they are due for moderation or not",
-			"type": "bool",
-			"name": "verbose",
-			"value": false,
-			"title": "Notification for all incoming questions"
-		},
-		{
-			"description": "Determines how often the SUMO API will be queried to receive updates about new questions. Too low values won't work well, because of the server-side caching involved",
-			"type": "integer",
-			"name": "polling",
-			"value": 150,
-			"title": "Polling interval (in seconds)"
-		}
-	]
+ "name": "sumo_live_moderation", 
+ "license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
+ "author": "philipp", 
+ "version": "0.3", 
+ "fullName": "SUMO Live Moderation",
+ "icon": "./data/icon-32.png",
+ "icon64": "./data/icon-64.png",
+ "id": "sumolivemod@sumo", 
+ "preferences": [
+  {
+   "description": "A tab with the question will be opened for manual moderation in case the specified keywords are detected",
+   "type": "bool",
+   "name": "alertkeyword",
+   "value": true,
+   "title": "Show alert for keywords"
+  },
+  {
+   "description": "Case insensitive, separate with '|'",
+   "type": "string",
+   "name": "keywords",
+   "value": "vashikaran|gold medal|astrolog|black magic|husband wife",
+   "title": "Keywords to look for:"
+  },
+  {
+   "description": "A tab with the question will be opened for manual moderation in case a phone number or a link is detected",
+   "type": "bool",
+   "name": "alertphonenumberlink",
+   "value": true,
+   "title": "Show alert for phone numbers & links"
+  },
+  {
+   "description": "A tab with the question will be opened for manual moderation in case a particularily short or garbled text is detected",
+   "type": "bool",
+   "name": "alertgarbled",
+   "value": true,
+   "title": "Show alert for unusual content"
+  },
+  {
+   "description": "A tab with the question will be opened for manual moderation in case a duplicate post is supsected",
+   "type": "bool",
+   "name": "alertduplicate",
+   "value": true,
+   "title": "Show alert for duplicates"
+  },
+  {
+   "description": "Alerts will open in the background and not take focus away from the current tab",
+   "type": "bool",
+   "name": "alertinbackground",
+   "value": false,
+   "title": "Open alerts in background"
+  },
+  {
+   "description": "Check incoming replies with filters for keywords, phone numbers, links & unusual content as well (some whitelisting is applied for known contributors)",
+   "type": "bool",
+   "name": "checkreplies",
+   "value": false,
+   "title": "Check replies"
+  },
+  {
+   "description": "A brief notification will be displayed for all incoming questions, regardless if they are due for moderation or not",
+   "type": "bool",
+   "name": "verbose",
+   "value": false,
+   "title": "Notification for all incoming questions"
+  },
+  {
+   "description": "Determines how often the SUMO API will be queried to receive updates about new questions. Too low values won't work well, because of the server-side caching involved",
+   "type": "integer",
+   "name": "polling",
+   "value": 150,
+   "title": "Polling interval (in seconds)"
+  }
+ ]
 }
