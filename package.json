@@ -2,7 +2,7 @@
     "name": "sumo_live_moderation", 
     "license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
     "author": "philipp", 
-    "version": "0.3", 
+    "version": "0.3.1", 
     "fullName": "SUMO Live Moderation",
     "icon": "./data/icon-32.png",
     "icon64": "./data/icon-64.png",
