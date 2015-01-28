@@ -2,7 +2,7 @@
     "name": "sumo_live_moderation", 
     "license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
     "author": "philipp", 
-    "version": "0.3.3", 
+    "version": "0.3.4", 
     "fullName": "SUMO Live Moderation",
     "icon": "./data/icon-32.png",
     "icon64": "./data/icon-64.png",
@@ -51,7 +51,7 @@
             "title": "Open alerts in background"
         },
         {
-            "description": "Check incoming replies with filters for keywords, phone numbers, links & unusual content as well (some whitelisting is applied for known contributors)",
+            "description": "Check incoming replies with filters for keywords, phone numbers, links & unusual content as well (whitelisting is applied for contributors with more than 10 solutions)",
             "type": "bool",
             "name": "checkreplies",
             "value": false,
@@ -65,7 +65,7 @@
             "title": "Notification for all incoming questions"
         },
         {
-            "description": "Determines how often the SUMO API will be queried to receive updates about new questions. Too low values won't work well, because of the server-side caching involved",
+            "description": "Determines how often the SUMO API will be queried to receive updates about new questions.",
             "type": "integer",
             "name": "polling",
             "value": 150,
