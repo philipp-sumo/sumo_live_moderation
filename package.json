@@ -19,7 +19,7 @@
             "description": "Case insensitive, separate with '|'",
             "type": "string",
             "name": "keywords",
-            "value": "vashikaran|gold medal|astrolog|black magic|husband wife",
+            "value": "vashikaran|gold medal|astrolog|black magic|husband wife|garcinia",
             "title": "Keywords to look for:"
         },
         {
@@ -37,7 +37,7 @@
             "title": "Show alert for unusual content"
         },
         {
-            "description": "A tab with the question will be opened for manual moderation in case a duplicate post is suspected",
+            "description": "A tab with recent questions will be opened for manual moderation in case a duplicate post is suspected",
             "type": "bool",
             "name": "alertduplicate",
             "value": true,
