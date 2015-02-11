@@ -1,6 +1,6 @@
 {
     "name": "sumo_live_moderation", 
-    "license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)", 
+    "license": "GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.html); some icon artwork is CC BY-ND 4.0 by Martz90 (http://martz90.deviantart.com)", 
     "author": "philipp", 
     "version": "0.3.4", 
     "fullName": "SUMO Live Moderation",
